@@ -6,7 +6,7 @@ as they use one to write functions to generate summary statistics.
 ## Jupyter notebooks setup (for Mac)
 You can install Jupyter (and some helpful extensions) using pip in the Terminal:
 
-    $ pip install --upgrade pip ipython jupyter jupytext pandas jupyter_contrib_nbextensions
+    $ pip install --upgrade -r requirements.txt
     $ jupyter contrib nbextension install --user
     $ jupyter nbextension enable toc2/main && jupyter nbextension enable collapsible_headings/main && jupyter nbextension enable hide_input/main && jupyter nbextension enable varInspector/main && jupyter nbextension enable hinterland/hinterland && jupyter nbextension enable python-markdown/main && jupyter nbextension enable spellchecker/main && jupyter nbextension enable exercise2/main 
 
