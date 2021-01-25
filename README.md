@@ -1,4 +1,4 @@
-# lab-summarystats
+# lab-sumstats
 
 This lab will introduce students to Jupyter Notebooks
 as they use one to write functions to generate summary statistics.
@@ -16,8 +16,7 @@ You can install Jupyter using pip in the Terminal:
     $ sudo apt update
     $ sudo apt install python3-pip
     $ pip3 install --upgrade pip
-    $ pip3 install --user jupyter
-    $ pip3 install --upgrade --user ipython jupyter jupytext pandas
+    $ pip3 install --upgrade --user -r requirements.txt
     $ vim ~/.bashrc
 
 Inside bashrc, scroll to the very end of the document. Press `I`.
@@ -31,11 +30,4 @@ Once completed, press `ESC` button.
 
 Now, install some extensions to make your notebooks nicer:
     $ jupyter-notebook contrib nbextension install --user
-    $ jupyter-notebook  nbextension enable toc2/main
-    $ jupyter-notebook  nbextension enable collapsible_headings/main
-    $ jupyter-notebook  nbextension enable hide_input/main
-    $ jupyter-notebook  nbextension enable varInspector/main
-    $ jupyter-notebook  nbextension enable hinterland/hinterland
-    $ jupyter-notebook  nbextension enablepython-markdown/main
-    $ jupyter-notebook  nbextension enablespellchecker/main
-    $ jupyter-notebook  nbextension enableexercise2/main 
+    $ jupyter-notebook  nbextension enable toc2/main && jupyter-notebook nbextension enable collapsible_headings/main && jupyter-notebook nbextension enable hide_input/main && jupyter-notebook nbextension enable varInspector/main && jupyter-notebook nbextension enable hinterland/hinterland && jupyter-notebook nbextension enable python-markdown/main && jupyter-notebook nbextension enable spellchecker/main && jupyter-notebook nbextension enable exercise2/main 
