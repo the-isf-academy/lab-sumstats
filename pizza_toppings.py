@@ -2,7 +2,7 @@
 # Pizza data from expandedramblings.com/index.php/the-top-10-most-popular-pizza-toppings-infographic/
 
 # a list containing the top 10 pizza toppings according to the link above.
-top_toppings = [
+top_toppings_list = [
         "pepperoni",
         "mushrooms",
         "onions",
@@ -25,6 +25,6 @@ def topping_rank(topping):
     if not topping in top_toppings_list:
         return "very unique"
     else:
-        return top_toppings.index(topping)+1
+        return top_toppings_list.index(topping)+1
 
 
