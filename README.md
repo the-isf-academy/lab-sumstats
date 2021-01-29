@@ -29,5 +29,6 @@ Once completed, press `ESC` button.
     $ source ~/.bashrc
 
 Now, install some extensions to make your notebooks nicer:
+
     $ jupyter-notebook contrib nbextension install --user
     $ jupyter-notebook  nbextension enable toc2/main && jupyter-notebook nbextension enable collapsible_headings/main && jupyter-notebook nbextension enable hide_input/main && jupyter-notebook nbextension enable varInspector/main && jupyter-notebook nbextension enable hinterland/hinterland && jupyter-notebook nbextension enable python-markdown/main && jupyter-notebook nbextension enable spellchecker/main && jupyter-notebook nbextension enable exercise2/main 
